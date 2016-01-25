@@ -16,7 +16,6 @@ $(document).ready(function(){
 			url: 'http://kristy.ramage.yoobee.net.nz/ajax-yoobee/ajax-yoobee.php',
 			data: { note: $('#note').val() },
 			success: function( dataFromServer ) {
-
 				},
 			error: function(){
 				alert('Cannot Connect');
